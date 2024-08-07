@@ -12,9 +12,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    {/* ... Step (3.1): Wrap your app with stytch B2B provider... */}
+    {/* ... Step (3.1): Integrate StytchB2BProvider into Your App... */}
       <App />
-    {/* ... Step (3.1): Wrap your app with stytch B2B provider ... */}
+    {/* ... Step (3.1): Integrate StytchB2BProvider into Your App ... */}
   </React.StrictMode>
 );
 
