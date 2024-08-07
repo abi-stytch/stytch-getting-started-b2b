@@ -10,12 +10,12 @@ interface StytchLoginProps {
 
 export const StytchLoginDialog = (props: StytchLoginProps) => {
   const { onClose, open } = props;
-  // Step (4): Create the config for Pre-built UI Client 
+  // Step (4): Set Up Configuration for StytchB2B UI Component 
  /* ... */
 
   return (
     <Dialog onClose={onClose} open={open}>
-      {/*  Step 4.1 Add the <StytchB2B> UI Component */}
+      {/*  Step 4.1 Add the <StytchB2B> UI Login Component */}
     </Dialog>
   );
 }
